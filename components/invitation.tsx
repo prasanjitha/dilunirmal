@@ -4,8 +4,6 @@ import { Heart } from "lucide-react";
 import Image from "next/image";
 import { AnimatedDivider } from "./animated-divider";
 
-import Head from 'next/head';
-
 // HeartRain Component
 type HeartType = {
     id: number;
@@ -83,7 +81,7 @@ export default function WeddingInvitation() {
   
   
   // Heart rain state
-  const [showHearts, setShowHearts] = useState(true);
+  const [showHearts] = useState(true);
   
   // Set the wedding date - May 8, 2025
   const weddingDate = new Date('july 30, 2025 09:30:00').getTime();
@@ -176,10 +174,6 @@ export default function WeddingInvitation() {
   }, []);
   
   return (
-    <>
-    <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&display=swap" rel="stylesheet" />
-      </Head>
     <div className="min-h-screen bg-white font-serif">
       {/* Heart Rain Animation */}
       {showHearts && <HeartRain />}
@@ -309,7 +303,5 @@ export default function WeddingInvitation() {
         <p className="text-sm">With love as we begin our journey together</p>
       </footer>
     </div>
-
-    </>
   );
 }
