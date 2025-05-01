@@ -51,11 +51,11 @@ type HeartType = {
     };
   
     return (
-      <div className="fixed inset-0 pointer-events-none z-10">
+      <div className="fixed inset-0 pointer-events-none z-50">
         {hearts.map(heart => (
           <div
             key={heart.id}
-            className={`absolute ${heart.color} animate-heartfall`}
+            className={`absolute ${heart.color} animate-heartfall z-50`}
             style={{
               left: `${heart.left}%`,
               fontSize: `${heart.size}rem`,
@@ -183,7 +183,7 @@ export default function WeddingInvitation() {
         <Image
           src="./images/DSC01320.jpg"
           alt="Wedding background"
-          layout="fill"
+          layout="fill" 
           objectFit="cover"
           quality={100}
           priority
@@ -198,9 +198,10 @@ export default function WeddingInvitation() {
         </div>
         </div>
         {/* Wave effect at bottom */}
-        <div className="absolute bottom-[-6] w-full h-16 bg-white z-20" style={{
+        <div className="absolute bottom-[-6] w-full md:!h-10 bg-white z-20" style={{
           borderTopLeftRadius: "50% 100%",
-          borderTopRightRadius: "50% 100%"
+          borderTopRightRadius: "50% 100%",
+          height: "36px",
         }}></div>
       </section>
       
