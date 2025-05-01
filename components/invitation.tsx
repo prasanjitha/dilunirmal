@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { Heart } from "lucide-react";
 import Image from "next/image";
 import { AnimatedDivider } from "./animated-divider";
+import { useRouter } from "next/router";
+
 
 // HeartRain Component
 type HeartType = {
@@ -118,6 +120,9 @@ export default function WeddingInvitation() {
 //   const toggleHearts = () => {
 //     setShowHearts(!showHearts);
 //   };
+
+const router = useRouter();
+const basePath = router.basePath || "";
   
   // CSS for heart animation
   useEffect(() => {
@@ -181,7 +186,7 @@ export default function WeddingInvitation() {
       {/* Hero Section with Background Image */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src="/images/DSC01320.jpg"
+          src={`${basePath}/images/DSC01320.jpg`}
           alt="Wedding background"
           layout="fill"
           objectFit="cover"
