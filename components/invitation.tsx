@@ -194,7 +194,7 @@ export default function WeddingInvitation() {
           <div className="relative z-10 text-center px-4">
           <h1 className="text-5xl md:text-7xl font-Satisfy text-yellow-400 mb-6" >Nirmal & Madhuri</h1>
           <p className="text-xl md:text-2xl text-yellow-500 italic mb-6" style={{ fontFamily: '"Dancing Script", cursive' }}>Invite you to witness the beginning of their forever</p>
-          <p className="text-lg md:text-xl text-yellow-500 mb-8" style={{ fontFamily: '"Dancing Script", cursive' }}>With grateful hearts, we celebrate our love with you</p>
+          <p className="text-lg md:text-xl text-yellow-500 mb-8" style={{ fontFamily: '"Dancing Script", cursive' }}>With grateful hearts we celebrate our love with you</p>
         </div>
         </div>
         {/* Wave effect at bottom */}
