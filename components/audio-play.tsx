@@ -29,7 +29,7 @@ const AudioPlayer = () => {
   <span className="text-sm font-medium text-gray-800">
     {isPlaying ? 'Pause Music' : 'Play Music'}
   </span>
-  <audio ref={audioRef} src="/audio/wedding-song.mp3" loop />
+  <audio ref={audioRef} src="./audio/wedding-song.mp3" loop />
 </div>
 
 
