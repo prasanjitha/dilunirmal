@@ -1,4 +1,4 @@
-import { Heart } from "lucide-react";
+// import { Heart } from "lucide-react";
 
 export const AnimatedDivider = ({ variant = "default" }) => {
     if (variant === "ornate") {
