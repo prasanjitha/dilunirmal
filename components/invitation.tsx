@@ -249,7 +249,7 @@ export default function WeddingInvitation() {
             Your presence will make our celebration truly special.
           </p>
 
-          <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-6 mb-8" >
+          <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-6 mb-8" style={{ fontFamily: '"Dancing Script", cursive' }} >
             <div className="text-3xl font-semibold">WEN</div>
             <div className="text-4xl font-bold">
               JULY
@@ -263,10 +263,10 @@ export default function WeddingInvitation() {
           <p className="text-sm mb-6">(Poruwa Ceremony at 10.00 am.)</p>
 
           <p className="text-lg mb-2">at</p>
-          <h3 className="text-2xl font-semibold mb-2 underline">
+          <h3 className="text-2xl font-semibold mb-2 underline" style={{ fontFamily: '"Dancing Script", cursive' }}>
             Hotel Paraduwa
           </h3>
-          <p className="text-sm mb-12">(Paraduwa, Akuressa.)</p>
+          <p className="text-sm mb-12" style={{ fontFamily: '"Dancing Script", cursive' }}>(Paraduwa, Akuressa)</p>
         </div>
       </section>
 
@@ -276,7 +276,7 @@ export default function WeddingInvitation() {
       {/* Countdown Section */}
       <section className="py-16 px-4 bg-white" style={{ fontFamily: '"Dancing Script", cursive' }}>
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-10">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-10" style={{ fontFamily: '"Dancing Script", cursive' }}>
             Counting the Moments Until Our Forever
           </h2>
 
@@ -315,7 +315,7 @@ export default function WeddingInvitation() {
       {/* Download Section */}
       <section className="py-16 px-4 bg-white" style={{ fontFamily: '"Dancing Script", cursive' }}>
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-10">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-10" style={{ fontFamily: '"Dancing Script", cursive' }}>
             Keep a Cherished Memory of Our Special Day
           </h2>
 
@@ -332,7 +332,7 @@ export default function WeddingInvitation() {
 
       <section className="py-16 px-4 bg-white" style={{ fontFamily: '"Dancing Script", cursive' }}>
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-8" style={{ fontFamily: '"Dancing Script", cursive' }}>
             Kindly RSVP to Confirm Your Attendance
           </h2>
 

@@ -8,7 +8,7 @@ const AudioPlayer = () => {
   const togglePlay = () => {
     const audio = audioRef.current;
     if (!audio) return;
-    audio.volume = 0.2;
+    audio.volume = 0.6;
     if (isPlaying) {
       audio.pause();
     } else {
@@ -26,7 +26,7 @@ const AudioPlayer = () => {
   >
     {isPlaying ? <Pause size={24} /> : <Play size={24} />}
   </button>
-  <span className="text-sm font-medium text-gray-800">
+  <span className="text-sm font-medium text-gray-800" style={{ fontFamily: '"Dancing Script", cursive' }}>
     {isPlaying ? 'Pause Music' : 'Play Music'}
   </span>
   <audio ref={audioRef} src="./audio/wedding-song.mp3" loop />
