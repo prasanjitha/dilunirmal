@@ -19,7 +19,7 @@ const AudioPlayer = () => {
   };
 
   return (
-<div className="absolute top-3/4 md:top-2/3  left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-lg">
+<div style={{ fontFamily: '"Dancing Script", cursive' }} className="absolute top-3/4 md:top-2/3  left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-lg">
   <button
     onClick={togglePlay}
     className="text-gray-800"
